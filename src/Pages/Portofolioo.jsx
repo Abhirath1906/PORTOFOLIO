@@ -3,7 +3,7 @@
 
 
 import Fileutama from "../Component/Fileutama"
-const porrtofolio = () => {
+const Portofolioo = () => {
    
     return (
         <>
@@ -11,4 +11,4 @@ const porrtofolio = () => {
         </>
     )
 }
-export default porrtofolio;
+export default Portofolioo;
