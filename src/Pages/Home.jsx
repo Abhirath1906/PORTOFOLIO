@@ -1,14 +1,25 @@
-// import React from 'react'
-// import './App.css'
-
-// import FirstH from "./Component/FirstH"
 
 
 
-function Home() {
+
+
+
+
+import Forhome from "../Component/Forhome"
+
+const Home = () => {
 
   return (
-    <FirstH/>
+
+    <>
+
+      <Forhome/>
+
+
+    </>
+
+
+
   )
 
 }
