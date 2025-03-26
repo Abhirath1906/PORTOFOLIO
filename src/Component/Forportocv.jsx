@@ -64,7 +64,7 @@ function poortofolio() {
 
             </div>
 
-            <div style={{ display: 'flex', gap: "180px" }}>
+            <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
 
                 <div className='secondContainer'>
                     <div className='animasi'>
@@ -80,7 +80,7 @@ function poortofolio() {
 
                 </div>
 
-                <div style={{ marginTop: "80px" }}>
+                <div className='Gambarr' style={{ marginTop: "80px" }}>
                     <img className='Abhi' src={Abhirath} alt="Gambar" />
                 </div>
 

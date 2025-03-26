@@ -50,7 +50,7 @@ function poortofolio() {
 
 
 
-          <div style={{ display: "flex",gap:"70px", }}>
+          <div  style={{ display: "flex",gap:"70px" }}>
             <a className='animate' href='/home'>Home</a>
             <a className='animate' href='/about'>About</a>
             <a className='animate' href='/contact'>Contact</a>
@@ -63,7 +63,7 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: 'flex', gap: "180px" }}>
+      <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
 
         <div className='secondContainer'>
           <div className='animasi'>
@@ -72,11 +72,13 @@ function poortofolio() {
 
           <div className='animasi'>
             <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>My Contact</p>
-            <p style={{ color: "white", fontSize: "20px" }}>Email: abhirath1906@gmail.com <br/> Instagram: abhirath1906 <br/> You can contact me if you want to build a web , i can help you to do that.</p>
+            <p style={{ color: "white", fontSize: "20px" }}> <li>Email: abhirath1906@gmail.com</li> <br/> <li>Instagram: abhirath1906</li> 
+            <br/> You can contact me if you want to build a web,
+             i can help you to do that.</p>
           </div>
         </div>
 
-        <div style={{ marginTop: "80px" }}>
+        <div className='Gambarr' style={{ marginTop: "80px" }}>
           <img className='Abhi' src={Abhirath} alt="Gambar" />
         </div>
 

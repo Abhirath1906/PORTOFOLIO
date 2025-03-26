@@ -63,7 +63,7 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: 'flex', gap: "180px" }}>
+      <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
 
         <div className='secondContainer'>
           <div className='animasi'>
@@ -72,7 +72,7 @@ function poortofolio() {
 
           <div className='animasi'>
             <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>My Skills</p>
-            <p style={{ color: "white", fontSize: "20px" }}>the thing that I can do or you could say my skills is making animations using gsap in React, then I can also use HTML and CSS, and of course I can use React quite well.
+            <p style={{ color: "white", fontSize: "20px" }}>the thing that I can do or you could say my skills is making animations<br/> using gsap in React, then I can also use HTML and CSS,<br/> and of course I can use React quite well.
                 <li>React</li>
                 <li>Css</li>
                 <li>Html</li>
@@ -80,7 +80,7 @@ function poortofolio() {
           </div>
         </div>
 
-        <div style={{ marginTop: "80px" }}>
+        <div className='Gambarr' style={{ marginTop: "80px" }}>
           <img className='Abhi' src={Abhirath} alt="Gambar" />
         </div>
 

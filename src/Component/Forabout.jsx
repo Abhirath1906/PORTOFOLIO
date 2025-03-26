@@ -51,7 +51,7 @@ function poortofolio() {
 
 
           <div style={{ display: "flex",gap:"70px" }}>
-            <a className='animate' href='/home'>Home</a>
+            <a className='animate' href='/'>Home</a>
             <a className='animate' href='/about'>About</a>
             <a className='animate' href='/contact'>Contact</a>
             <a className='animate' href='/skills'>Skills</a>
@@ -63,7 +63,7 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: 'flex', gap: "180px" }}>
+      <div  style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
 
         <div className='secondContainer'>
           <div className='animasi'>
@@ -72,11 +72,13 @@ function poortofolio() {
 
           <div className='animasi' >
             <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>My name is Abhirath</p>
-            <p style={{ color: "white", fontSize: "20px" }}>Hello, my name is Abhirath, I am now 15 years old, I was in elementary school for 6 years from 2015 to 2021, then I was in junior high school for 3 years, from 2021 to 2023 and I was in vocational school from 2024 until now.</p>
+            <p style={{ color: "white", fontSize: "20px" }}>Hello, my name is Abhirath, I am now 15 years old,<br/>
+             I was in elementary school for 6 years from 2015 to 2021,<br/> then I was in junior high school for 3 years, from 2021 to 2023<br/>
+              and I was in vocational school from 2024 until now.</p>
           </div>
         </div>
 
-        <div style={{ marginTop: "80px" }}>
+        <div className='Gambarr' style={{ marginTop: "80px" }}>
           <img className='Abhi' src={Abhirath} alt="Gambar" />
         </div>
 

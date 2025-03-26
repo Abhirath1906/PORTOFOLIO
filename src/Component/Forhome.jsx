@@ -60,20 +60,20 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: 'flex', gap: "180px" }}>
+      <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
 
         <div className='secondContainer'>
           <div className='animasi'>
             <p style={{ marginBottom: "30px" }} className='welcome'>WELCOME!</p>
           </div>
 
-          <div className='animasi'>
+          <div className='animasi' >
             <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>I Am Web daveloper</p>
-            <p style={{ color: "white", fontSize: "20px" }}>Hi I am a web daveloper with 1 year experience and above, the things I can do quite well are making animations,then it's pretty good to be able to use react on the web and many more....</p>
+            <p style={{ color: "white", fontSize: "20px" }}>Hi I am a web daveloper with 1 year experience and above,<br/> the things I can do quite well are making animations,then it's<br/> pretty good to be able to use react on the web and many more....</p>
           </div>
         </div>
 
-        <div style={{ marginTop: "80px" }}>
+        <div className='Gambarr' style={{ marginTop: "80px" }}>
           <img className='Abhi' src={Abhirath} alt="Gambar" />
         </div>
 
