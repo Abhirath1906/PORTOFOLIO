@@ -52,7 +52,7 @@ function poortofolio() {
 
 
                     <div style={{ display: "flex", gap: "70px", }}>
-                        <a className='animate' href="/">Home</a>
+                        <a className='animate' href='/'>Home</a>
                         <a className='animate' href='/about'>About</a>
                         <a className='animate' href='/contact'>Contact</a>
                         <a className='animate' href='/skills'>Skills</a>

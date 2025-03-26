@@ -7,7 +7,9 @@ const Portofolioo = () => {
    
     return (
         <>
-        <Fileutama /> 
+
+       <Fileutama />
+
         </>
     )
 }
