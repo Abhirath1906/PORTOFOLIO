@@ -1,12 +1,11 @@
-
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Portofolioo from './pages/Portofolioo'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Skills from './pages/Skills'
-import Portocv from './pages/Portocv'
+import Portofolioo from './Portofolioo'
+import Home from './Home'
+import About from './About'
+import Contact from './Contact'
+import Skills from './Skills'
+import Portocv from './Portocv'
 function App(){
 
 return(
@@ -26,10 +25,3 @@ return(
 
 }
 export default App;
-
-
-
-
-
-
-
