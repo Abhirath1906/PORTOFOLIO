@@ -70,6 +70,7 @@ html {
 .secondContainer{
   margin-top: 150px;
   opacity: 0;
+  margin-bottom: 500px;
 }
 
 .Abhi{
@@ -110,6 +111,125 @@ html {
   background-color:  rgba(255, 54, 54, 0.66);
 }
 
+
+
+.Myportofolio{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(255, 54, 54, 0.66);
+  opacity: 0;
+}
+
+
+.Laptop{
+  width: 260px;
+  border: 20px solid  rgba(255, 54, 54, 0);
+  border-radius: 5px;
+}
+
+.Laptopdesain{
+  width: 250px;
+  border: 20px solid rgba(255, 54, 54, 0);
+  border-radius: 5px;
+}
+
+
+
+.divlaptop{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.divtext{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-top: -10px;
+  margin-left: 20px;
+ 
+}
+
+
+
+.divlaptop1{
+  background-color: rgba(255, 54, 54, 0.66) ;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 130px;
+  margin-left: -110px;
+  opacity: 0;
+  border: 3px solid black;
+}
+
+
+.divlaptop2{
+  background-color: rgba(255, 54, 54, 0.66) ;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 130px;
+  opacity: 0;
+  border: 3px solid black;
+}
+
+.divlaptop3{
+  background-color: rgba(255, 54, 54, 0.66) ;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 130px;
+  opacity: 0;
+  border: 3px solid black;
+}
+
+
+
+.divworkhistory{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  /* margin-left: 50px; */
+  font-size: 50px;
+  gap:10px;
+  opacity: 0;
+
+  
+}
+
+.alldivlake{
+  margin-top: 200px;
+
+}
+
+.divlake1{
+  background-color: rgba(255, 54, 54, 0.66);
+  padding: 50px;
+  border-radius: 10px;
+  border: 5px solid black;
+  opacity: 0;
+  margin-top: 100px;
+
+  
+}
+
+.divlake2{
+  background-color: rgba(255, 54, 54, 0.66);
+  padding: 50px;
+  border-radius: 10px;
+  border: 5px solid black;
+  opacity: 0;
+  margin-top: 100px;
+  
+}
+
+.title{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom:10px;
+}
+
+.titletext{
+  color: white;
+}
 
 .animasi{
   transition: background 0.3s, transform 0.3s;
