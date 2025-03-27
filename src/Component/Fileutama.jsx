@@ -206,14 +206,14 @@ function poortofolio() {
 
               <div className='divtext'>
                 <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-                <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+                <p style={{ color: "white", }}>Fairly understand how to<br/> use Excel applications.</p>
               </div>
 
             </div>
           </div>
 
 
-          <div className='animasiporto'>
+          <div >
 
             <div className='divlaptop3'>
 
@@ -223,7 +223,7 @@ function poortofolio() {
 
               <div className='divtext'>
                 <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-                <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+                <p style={{ color: "white", }}>Understand create animations on<br/> the web using Gsap.</p>
               </div>
 
             </div>
