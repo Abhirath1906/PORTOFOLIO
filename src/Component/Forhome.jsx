@@ -77,34 +77,34 @@ function poortofolio() {
     })
 
 
-    gsap.to(".divworkhistory",{
-      y:100,duration:1, opacity:1,scrollTrigger:{
-        trigger:".divworkhistory",
-        scrub:2,
+    gsap.to(".divworkhistory", {
+      y: 100, duration: 1, opacity: 1, scrollTrigger: {
+        trigger: ".divworkhistory",
+        scrub: 2,
         // markers:true,
-        start:"-100px center",
-        end:"80px center"
+        start: "-100px center",
+        end: "80px center"
       }
     })
 
 
-    gsap.to(".divlake1",{
-      y:-100,duration:1, opacity:1,scrollTrigger:{
-        trigger:".divlake1",
-        scrub:2,
+    gsap.to(".divlake1", {
+      y: -100, duration: 1, opacity: 1, scrollTrigger: {
+        trigger: ".divlake1",
+        scrub: 2,
         // markers:true,
-        start:"-160px center",
-        end:"1px center"
+        start: "-160px center",
+        end: "1px center"
       }
     })
 
-    gsap.to(".divlake2",{
-      y:-100,duration:1, opacity:1,scrollTrigger:{
-        trigger:".divlake2",
-        scrub:2,
+    gsap.to(".divlake2", {
+      y: -100, duration: 1, opacity: 1, scrollTrigger: {
+        trigger: ".divlake2",
+        scrub: 2,
         // markers:true,
-        start:"-160px center",
-        end:"1px center"
+        start: "-160px center",
+        end: "1px center"
       }
     })
 
@@ -180,36 +180,52 @@ function poortofolio() {
 
         <div className='divlaptop'>
 
-          <div className='divlaptop1'>
 
-            <img className='Laptop' src={Blacklaptop}></img>
 
-            <div className='divtext'>
-              <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-              <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+          <div className='animasiporto'>
+            <div className='divlaptop1'>
+
+              <div className='animasilap'>
+                <img className='Laptop' src={Blacklaptop}></img>
+              </div>
+              <div className='divtext'>
+                <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
+                <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+              </div>
             </div>
 
           </div>
 
-          <div className='divlaptop2'>
+          <div className='animasiporto'>
 
-            <img className='Laptop' src={Laptopexcel}></img>
+            <div className='divlaptop2'>
 
-            <div className='divtext'>
-              <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-              <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+              <div className='animasilap'>
+                <img className='Laptop' src={Laptopexcel}></img>
+              </div>
+
+              <div className='divtext'>
+                <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
+                <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+              </div>
+
             </div>
-
           </div>
 
 
-          <div className='divlaptop3'>
+          <div className='animasiporto'>
 
-            <img className='Laptopdesain' src={Laptopdesign}></img>
+            <div className='divlaptop3'>
 
-            <div className='divtext'>
-              <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-              <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+              <div className='animasilap'>
+                <img className='Laptopdesain' src={Laptopdesign}></img>
+              </div>
+
+              <div className='divtext'>
+                <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
+                <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
+              </div>
+
             </div>
 
           </div>
@@ -219,34 +235,35 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: "flex", justifyContent: "space-evenly", marginTop:"100px" }}>
+      <div style={{ display: "flex", justifyContent: "space-evenly", marginTop: "100px" }}>
 
 
 
-        <div className='divworkhistory'>
-          <p style={{ color: "rgba(255, 54, 54, 0.66)", fontWeight: "bold" }}>WORK</p>
-          <p style={{ fontWeight: "bold" }}>HISTORY</p>
-          <p style={{ fontSize: "20px", color: "white" }}>This is my work history in the<br/> company or in GreenLake,<br /> going to this company is<br/> one of the meta subjects<br /> in my school.</p>
+        <div className='animasihistory'>
+          <div className='divworkhistory'>
+            <p style={{ color: "rgba(255, 54, 54, 0.66)", fontWeight: "bold" }}>WORK</p>
+            <p style={{ fontWeight: "bold" }}>HISTORY</p>
+            <p style={{ fontSize: "20px", color: "white" }}>This is my work history in the<br /> company or in GreenLake,<br /> going to this company is<br /> one of the meta subjects<br /> in my school.</p>
+          </div>
         </div>
-
 
         <div className='alldivlake'>
 
           <div className='divlake1'>
             <p className='title'>GreenLake<br />Companny</p>
-            <p className='titletext'>I have been working and studying at<br/> GreenLake company for 1 year, namely<br/> from 2024 until now, namely 2025.</p>
+            <p className='titletext'>I have been working and studying at<br /> GreenLake company for 1 year, namely<br /> from 2024 until now, namely 2025.</p>
           </div>
 
         </div>
 
-       
+
 
         <div className='alldivlake'>
 
           <div className='divlake2'>
             <p className='title' >GreenLake<br />Companny</p>
-            <p style={{fontWeight:"bold"}}>What i get:</p>
-            <p className='titletext'  style={{marginBottom:"-38px"}}>What I got from working or studying at<br/> GreenLake company is, I can code<br/> using React, Css, then Html, and<br/> I also have a little mastery of Javascript.</p>
+            <p style={{ fontWeight: "bold" }}>What i get:</p>
+            <p className='titletext' style={{ marginBottom: "-38px" }}>What I got from working or studying at<br /> GreenLake company is, I can code<br /> using React, Css, then Html, and<br /> I also have a little mastery of Javascript.</p>
           </div>
 
         </div>
@@ -256,9 +273,7 @@ function poortofolio() {
 
       </div>
 
-      <p>l</p>
-      <p>l</p>
-      <p>l</p>
+      
     </body>
 
 

@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 import './App.css'
 import Abhirath from "../assets/Abhirath.jpg"
-import Thorfinn from "../assets/Thorfinn.jpg"
+
 
 
 

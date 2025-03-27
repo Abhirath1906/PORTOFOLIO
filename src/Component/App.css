@@ -83,6 +83,17 @@ html {
 }
 
 
+/* 
+.test{
+  transition: background 0.3s, transform 0.3s;
+} */
+
+/* .test:hover{
+  transform: scale(1.05);
+}
+ */
+
+
 .Gambarr{
   transition: background 0.3s, transform 0.3s;
   
@@ -147,7 +158,11 @@ html {
   gap:10px;
   margin-top: -10px;
   margin-left: 20px;
- 
+  transition: background 0.3s, transform 0.3s;
+}
+
+.divtext:hover{
+  transform: scale(1.03);
 }
 
 
@@ -157,11 +172,18 @@ html {
   border-radius: 20px;
   padding: 5px;
   margin-right: 130px;
-  margin-left: -110px;
+  margin-left: -122px;
   opacity: 0;
   border: 3px solid black;
 }
 
+.animasiporto{
+  transition: background 0.3s, transform 0.3s;
+}
+
+.animasiporto:hover{
+  transform: scale(1.01);
+}
 
 .divlaptop2{
   background-color: rgba(255, 54, 54, 0.66) ;
@@ -181,7 +203,13 @@ html {
   border: 3px solid black;
 }
 
+.animasilap{
+  transition: background 0.3s, transform 0.3s;
+}
 
+.animasilap:hover{
+  transform: scale(1.05);
+}
 
 .divworkhistory{
   display: flex;
@@ -192,12 +220,23 @@ html {
   gap:10px;
   opacity: 0;
 
-  
+}
+
+.animasihistory{
+  transition: background 0.3s, transform 0.3s;
+}
+
+.animasihistory:hover{
+  transform: scale(1.05);
 }
 
 .alldivlake{
   margin-top: 200px;
+  transition: background 0.3s, transform 0.3s;
+}
 
+.alldivlake:hover{
+  transform: scale(1.05);
 }
 
 .divlake1{
@@ -238,6 +277,9 @@ html {
 .animasi:hover{
   transform: scale(1.06);
 }
+
+
+
 
 
 @media (max-width: 768px) {
