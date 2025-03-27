@@ -1,5 +1,3 @@
-
-
 *,
 html {
   padding: 0;
@@ -7,74 +5,75 @@ html {
 
 }
 
-.allContainer{
+.allContainer {
 
-  background-color:rgba(1, 15, 43, 0.895);
+  background-color: rgba(1, 15, 43, 0.895);
   font-family: 'Roboto', sans-serif;
 
 
 }
 
-.Abhirath{
+.Abhirath {
   font-size: 25px;
   font-weight: bold;
-  color: rgba(255, 54, 54, 0.66);;
+  color: rgba(255, 54, 54, 0.66);
+  ;
   margin-top: -5px;
   transition: background 0.3s, transform 0.3s;
 
 }
 
 
-.firstContainer{
+.firstContainer {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  color:white;
+  color: white;
   margin-top: 30px;
   font-weight: bold;
   margin-bottom: 30px;
 
 }
 
-.animate{
+.animate {
   transition: background 0.3s, transform 0.3s;
   color: white;
   text-decoration: none;
 }
 
-.animate:hover{
+.animate:hover {
   transform: scale(1.05);
   color: rgba(255, 54, 54, 0.66);
   cursor: pointer;
 }
 
-.Abhirath:hover{
+.Abhirath:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
 
 
 
-.container{
+.container {
   border: 1px solid black;
-  background-color:rgba(25, 40, 70, 0.895) ;
+  background-color: rgba(25, 40, 70, 0.895);
 }
 
-.welcome{
+.welcome {
   font-size: 35px;
   font-weight: bold;
   color: rgba(255, 54, 54, 0.66);
 }
 
 
-.secondContainer{
+.secondContainer {
   margin-top: 150px;
   opacity: 0;
   margin-bottom: 500px;
 }
 
-.Abhi{
-  
+.Abhi {
+
   width: 270px;
   border: 20px solid rgba(1, 15, 43, 0.895);
   border-radius: 10px;
@@ -94,17 +93,17 @@ html {
  */
 
 
-.Gambarr{
+.Gambarr {
   transition: background 0.3s, transform 0.3s;
-  
+
 
 }
 
-.Gambarr:hover{
+.Gambarr:hover {
   transform: scale(1.05);
 }
 
-.CV{
+.CV {
   color: White;
   background-color: rgba(25, 40, 70, 0.895);
   padding: 10px;
@@ -117,14 +116,14 @@ html {
   transition: background 0.3s, transform 0.3s;
 }
 
-.CV:hover{
+.CV:hover {
   transform: scale(1.05);
-  background-color:  rgba(255, 54, 54, 0.66);
+  background-color: rgba(255, 54, 54, 0.66);
 }
 
 
 
-.Myportofolio{
+.Myportofolio {
   font-size: 35px;
   font-weight: bold;
   color: rgba(255, 54, 54, 0.66);
@@ -132,13 +131,13 @@ html {
 }
 
 
-.Laptop{
+.Laptop {
   width: 260px;
-  border: 20px solid  rgba(255, 54, 54, 0);
+  border: 20px solid rgba(255, 54, 54, 0);
   border-radius: 5px;
 }
 
-.Laptopdesain{
+.Laptopdesain {
   width: 250px;
   border: 20px solid rgba(255, 54, 54, 0);
   border-radius: 5px;
@@ -146,47 +145,48 @@ html {
 
 
 
-.divlaptop{
+.divlaptop {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
 }
 
-.divtext{
+.divtext {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   margin-top: -10px;
   margin-left: 20px;
   transition: background 0.3s, transform 0.3s;
 }
 
-.divtext:hover{
+.divtext:hover {
   transform: scale(1.03);
 }
 
 
 
-.divlaptop1{
-  background-color: rgba(255, 54, 54, 0.66) ;
+.divlaptop1 {
+  background-color: rgba(255, 54, 54, 0.66);
   border-radius: 20px;
   padding: 5px;
   margin-right: 130px;
   margin-left: -122px;
   opacity: 0;
   border: 3px solid black;
+  cursor: pointer;
 }
 
-.animasiporto{
+.animasiporto {
   transition: background 0.3s, transform 0.3s;
 }
 
-.animasiporto:hover{
+.animasiporto:hover {
   transform: scale(1.01);
 }
 
-.divlaptop2{
-  background-color: rgba(255, 54, 54, 0.66) ;
+.divlaptop2 {
+  background-color: rgba(255, 54, 54, 0.66);
   border-radius: 20px;
   padding: 5px;
   margin-right: 130px;
@@ -194,8 +194,8 @@ html {
   border: 3px solid black;
 }
 
-.divlaptop3{
-  background-color: rgba(255, 54, 54, 0.66) ;
+.divlaptop3 {
+  background-color: rgba(255, 54, 54, 0.66);
   border-radius: 20px;
   padding: 5px;
   margin-right: 140px;
@@ -203,43 +203,43 @@ html {
   border: 3px solid black;
 }
 
-.animasilap{
+.animasilap {
   transition: background 0.3s, transform 0.3s;
 }
 
-.animasilap:hover{
+.animasilap:hover {
   transform: scale(1.05);
 }
 
-.divworkhistory{
+.divworkhistory {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
   /* margin-left: 50px; */
   font-size: 50px;
-  gap:10px;
+  gap: 10px;
   opacity: 0;
 
 }
 
-.animasihistory{
+.animasihistory {
   transition: background 0.3s, transform 0.3s;
 }
 
-.animasihistory:hover{
+.animasihistory:hover {
   transform: scale(1.05);
 }
 
-.alldivlake{
+.alldivlake {
   margin-top: 200px;
   transition: background 0.3s, transform 0.3s;
 }
 
-.alldivlake:hover{
+.alldivlake:hover {
   transform: scale(1.05);
 }
 
-.divlake1{
+.divlake1 {
   background-color: rgba(255, 54, 54, 0.66);
   padding: 50px;
   border-radius: 10px;
@@ -247,36 +247,107 @@ html {
   opacity: 0;
   margin-top: 100px;
 
-  
+
 }
 
-.divlake2{
+.divlake2 {
   background-color: rgba(255, 54, 54, 0.66);
   padding: 50px;
   border-radius: 10px;
   border: 5px solid black;
   opacity: 0;
   margin-top: 100px;
-  
+
 }
 
-.title{
+.title {
   font-weight: bold;
   font-size: 40px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.titletext{
+.titletext {
   color: white;
 }
 
-.animasi{
+.animasi {
   transition: background 0.3s, transform 0.3s;
 }
 
-.animasi:hover{
+.animasi:hover {
   transform: scale(1.06);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.divjudul {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(255, 54, 54, 0.66);
+  opacity: 0;
+  margin-right: 200px;
+}
+
+
+
+
+
+.isicontact {
+  display: flex;
+  /* flex-direction: column; */
+  /* margin-left: 100px; */
+  margin-top: 70px;
+  font-size: 25px;
+  color: white;
+  opacity: 0;
+  margin-top: 200px;
+  justify-content: space-evenly;
+}
+
+
+
+.Webdaveloper {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+.warnaback {
+  background-color: rgba(255, 54, 54, 0.66);
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.warnaback:hover{
+  transform: scale(1.06);
+}
+
+
+
 
 
 

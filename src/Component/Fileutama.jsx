@@ -18,6 +18,7 @@ function poortofolio() {
 
 
 
+
   useEffect(() => {
     gsap.to(".secondContainer", {
       x: 120, duration: 1, opacity: 1, scrollTrigger: {
@@ -189,12 +190,32 @@ function poortofolio() {
                 <img className='Laptop' src={Blacklaptop}></img>
               </div>
               <div className='divtext'>
-                <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
+                
+
+                <button style={{backgroundColor:"red", border:"2px solid black"}}>
+                  <a
+                    style={{ color: "black", fontWeight: "bold", }}
+                    href="https://github.com/Abhirath1906/PORTOFOLIO.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Application
+                  </a>
+                </button>
                 <p style={{ color: "white", }}>Can code in React,<br /> HTML and CSS on a laptop.</p>
               </div>
             </div>
 
+
+
           </div>
+
+
+
+
+
+
+
 
           <div className='animasiporto'>
 
@@ -205,8 +226,19 @@ function poortofolio() {
               </div>
 
               <div className='divtext'>
-                <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-                <p style={{ color: "white", }}>Fairly understand how to<br/> use Excel applications.</p>
+
+
+                <button style={{backgroundColor:"red", border:"2px solid black"}}>
+                  <a
+                    style={{ color: "black", fontWeight: "bold", }}
+                    href="https://github.com/Abhirath1906/PORTOFOLIO.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Application
+                  </a>
+                </button>
+                <p style={{ color: "white", }}>Fairly understand how to<br /> use Excel applications.</p>
               </div>
 
             </div>
@@ -222,8 +254,21 @@ function poortofolio() {
               </div>
 
               <div className='divtext'>
-                <p style={{ color: "black", fontWeight: "bold", }}>Application</p>
-                <p style={{ color: "white", }}>Understand create animations on<br/> the web using Gsap.</p>
+                
+
+
+                <button style={{backgroundColor:"red", border:"2px solid black"}}>
+                  <a
+                    style={{ color: "black", fontWeight: "bold", }}
+                    href="https://github.com/Abhirath1906/PORTOFOLIO.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Application
+                  </a>
+                </button>
+
+                <p style={{ color: "white", }}>Understand create animations on<br /> the web using Gsap.</p>
               </div>
 
             </div>
@@ -235,7 +280,7 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: "flex", justifyContent: "space-evenly", marginTop: "100px" }}>
+      <div style={{ display: "flex", justifyContent: "space-evenly", marginTop: "50px" }}>
 
 
 
@@ -273,7 +318,7 @@ function poortofolio() {
 
       </div>
 
-    
+
     </body>
 
 

@@ -15,16 +15,16 @@ function poortofolio() {
 
 
   useEffect(() => {
-    gsap.to(".secondContainer", {
+    gsap.to(".divjudul", {
       x: 120, duration: 1, opacity: 1, scrollTrigger: {
-        trigger: ".secondContainer",
+        trigger: ".divjudul",
 
       }
     })
 
-    gsap.to(".Abhi", {
-      y: 150, duration: 1, opacity: 1, scrollTrigger: {
-        trigger: ".Abhi",
+    gsap.to(".isicontact", {
+      y: -150, duration: 1, opacity: 1, scrollTrigger: {
+        trigger: ".isicontact",
 
       }
     })
@@ -50,7 +50,7 @@ function poortofolio() {
 
 
 
-          <div  style={{ display: "flex",gap:"70px" }}>
+          <div style={{ display: "flex", gap: "70px" }}>
             <a className='animate' href='/home'>Home</a>
             <a className='animate' href='/about'>About</a>
             <a className='animate' href='/contact'>Contact</a>
@@ -63,7 +63,7 @@ function poortofolio() {
 
       </div>
 
-      <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
+      {/* <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
 
         <div className='secondContainer'>
           <div className='animasi'>
@@ -81,6 +81,55 @@ function poortofolio() {
         <div className='Gambarr' style={{ marginTop: "80px" }}>
           <img className='Abhi' src={Abhirath} alt="Gambar" />
         </div>
+
+      </div> */}
+
+
+
+      {/* DIV UTAMA */}
+      <div>
+
+
+
+        <div className='divjudul'>
+          <p>CONTACT</p>
+        </div>
+
+        <div className='isicontact'>
+
+          <div className='warnaback'>
+
+            <div style={{ marginBottom: "20px", fontWeight: "bold" }}>
+              <p className='Webdaveloper'>Web daveloper</p>
+
+              <p style={{ marginBottom: "10px",border: "2px solid black",padding:"10px"}}>Name: Abhirath</p>
+
+              <p style={{border: "2px solid black",padding:"10px"}}>Hello, I'm Abhirath,<br />
+                you can contact me if you want.</p>
+
+            </div>
+            <p style={{ marginBottom: "10px" }}>Contact me:</p>
+
+
+            <li style={{ marginBottom: "10px",}}>Phone number: 082122935778</li>
+            <li style={{ marginBottom: "10px" }}>Gmail: abhirath1906@gmail.com</li>
+            <li style={{ marginBottom: "10px" }}>Instagram: abhirath1906</li>
+
+          </div>
+
+
+
+          <div style={{display:"flex",gap:"300px"}}>
+            <p>Your Name</p>
+            <p>Phone Number</p>
+          </div>
+
+
+
+        </div>
+
+
+
 
       </div>
 
