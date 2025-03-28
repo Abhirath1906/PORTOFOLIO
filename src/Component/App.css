@@ -301,26 +301,54 @@ html {
   color: rgba(255, 54, 54, 0.66);
   opacity: 0;
   margin-right: 200px;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+
+.animasicontact{
+  transition: background 0.3s, transform 0.3s;
+}
+
+
+.animasicontact:hover{
+  transform: scale(1.06);
 }
 
 
 
 
 
+.animasiphone{
+  transition: background 0.3s, transform 0.3s;
+}
+
+.animasiphone:hover{
+  transform: scale(1.06);
+}
+
+
+
 .isicontact {
-  display: flex;
-  /* flex-direction: column; */
-  /* margin-left: 100px; */
+
   margin-top: 70px;
   font-size: 25px;
   color: white;
   opacity: 0;
   margin-top: 200px;
   justify-content: space-evenly;
+  margin-bottom: 230px;
+
 }
 
 
 
+
+
+
+/* 
 .Webdaveloper {
   margin-bottom: 40px;
   display: flex;
@@ -330,27 +358,54 @@ html {
   background-color: black;
   border-radius: 10px;
   padding: 10px;
-}
+} */
 
 
 
 .warnaback {
-  background-color: rgba(255, 54, 54, 0.66);
-  padding: 10px;
+  /* background-color: rgba(255, 54, 54, 0.66);
+  padding: 10px; */
+  /* border-radius: 10px;
+  border: 3px solid black; */
+  /* transition: background 0.3s, transform 0.3s; */
+  display: flex;
+  justify-content: space-around
+}
+
+.warnaback:hover {
+  /* transform: scale(1.06); */
+}
+
+
+.inputtext {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: 1px solid white;
   border-radius: 10px;
+}
+
+.Send {
+
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  color: white;
+  width: 530px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.divsendmessage {
   border: 3px solid black;
-  transition: background 0.3s, transform 0.3s;
+  background-color: rgba(249, 76, 76, 0.621);
+  padding: 40px;
+  padding-left: 320px;
+  padding-right: 320px;
+  border-radius: 10px;
+  opacity: 0;
 }
-
-.warnaback:hover{
-  transform: scale(1.06);
-}
-
-
-
-
-
-
 
 
 @media (max-width: 768px) {

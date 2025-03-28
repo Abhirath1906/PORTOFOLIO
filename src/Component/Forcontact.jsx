@@ -14,9 +14,11 @@ function poortofolio() {
 
 
 
+
+
   useEffect(() => {
     gsap.to(".divjudul", {
-      x: 120, duration: 1, opacity: 1, scrollTrigger: {
+      x: 120, duration: 1.5, opacity: 1, scrollTrigger: {
         trigger: ".divjudul",
 
       }
@@ -26,6 +28,17 @@ function poortofolio() {
       y: -150, duration: 1, opacity: 1, scrollTrigger: {
         trigger: ".isicontact",
 
+      }
+    })
+
+
+    gsap.to(".divsendmessage", {
+      x: 150, duration: 1.5, opacity: 1, scrollTrigger: {
+        trigger: ".divsendmessage",
+        scrub: 2,
+        // markers:true,
+        start: "-160px center",
+        end: "100px center"
       }
     })
 
@@ -82,7 +95,7 @@ function poortofolio() {
           <img className='Abhi' src={Abhirath} alt="Gambar" />
         </div>
 
-      </div> */}
+      </div> 
 
 
 
@@ -91,44 +104,94 @@ function poortofolio() {
 
 
 
+
         <div className='divjudul'>
           <p>CONTACT</p>
+          <p style={{ color: "black" }} >WEB DAVELOPER</p>
         </div>
+
 
         <div className='isicontact'>
 
           <div className='warnaback'>
 
-            <div style={{ marginBottom: "20px", fontWeight: "bold" }}>
-              <p className='Webdaveloper'>Web daveloper</p>
+            <div className='animasicontact' style={{ marginBottom: "20px", fontWeight: "bold" }}>
 
-              <p style={{ marginBottom: "10px",border: "2px solid black",padding:"10px"}}>Name: Abhirath</p>
 
-              <p style={{border: "2px solid black",padding:"10px"}}>Hello, I'm Abhirath,<br />
+              <p style={{ marginBottom: "10px", border: "2px solid black", padding: "10px" }}>Name: Abhirath</p>
+
+              <p style={{ border: "2px solid black", padding: "10px" }}>Hello, I'm Abhirath,<br />
                 you can contact me if you want.</p>
 
             </div>
-            <p style={{ marginBottom: "10px" }}>Contact me:</p>
 
 
-            <li style={{ marginBottom: "10px",}}>Phone number: 082122935778</li>
-            <li style={{ marginBottom: "10px" }}>Gmail: abhirath1906@gmail.com</li>
-            <li style={{ marginBottom: "10px" }}>Instagram: abhirath1906</li>
+            <div className='animasiphone'>
+
+              <div>
+                <p style={{ marginBottom: "10px" }}>Contact me:</p>
+
+
+                <li style={{ marginBottom: "10px", }}>Phone number: 082122935778</li>
+                <li style={{ marginBottom: "10px" }}>Gmail: abhirath1906@gmail.com</li>
+                <li style={{ marginBottom: "10px" }}>Instagram: abhirath1906</li>
+              </div>
+            </div>
+
 
           </div>
 
-
-
-          <div style={{display:"flex",gap:"300px"}}>
-            <p>Your Name</p>
-            <p>Phone Number</p>
-          </div>
 
 
 
         </div>
 
 
+        <div style={{ display: "flex", justifyContent: 'center', marginLeft: "-300px" }}>
+
+
+
+          <div className='divsendmessage' >
+
+            <div style={{ display: "flex", gap: "200px" }}>
+              <div>
+                <p style={{ marginBottom: "10px", color: "white" }}>Your Name:</p>
+                <input className='inputtext' type='text' style={{ height: "30px" }} />
+              </div>
+
+              <div>
+                <p style={{ marginBottom: "10px", color: "white" }}>Phone Number:</p>
+                <input className='inputtext' type='text' style={{ height: "30px" }} />
+              </div>
+            </div>
+
+
+            <div style={{ marginTop: "60px" }}>
+              <p style={{ marginBottom: "10px", color: "white" }}>Email:</p>
+              <input className='inputtext' style={{ width: "530px", height: "30px", }} type='text' />
+
+              <div style={{ marginTop: "60px" }}>
+                <p style={{ marginBottom: "10px", color: "white" }}>Subject:</p>
+                <input className='inputtext' style={{ width: "530px", height: "30px" }} type='text' />
+              </div>
+
+              <div style={{ marginTop: "60px" }}>
+                <p style={{ marginBottom: "10px", color: "white" }}>Your Message:</p>
+                <input className='inputtext' style={{ width: "530px", height: "100px" }} type='text' />
+              </div>
+
+
+              <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+                <button className='Send' type='submit'>SEND MESSAGE</button>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
 
 
       </div>
