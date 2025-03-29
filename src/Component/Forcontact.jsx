@@ -1,22 +1,51 @@
 
 
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import gsap from "gsap"
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 import './App.css'
-import Abhirath from "../assets/Abhirath.jpg"
+// import email from "../Component/email.js"
+// import emailjs from '@emailjs/browser'
 
 
 
 function poortofolio() {
 
 
+  // const [email, setEmail] = useState('');
+  // const [message, setMessage] = useState('');
 
 
 
   useEffect(() => {
+
+    // emailjs.init('6lxWkdX7445_TsiVW'); // Ini adalah public key yang diberikan
+    
+
+    // const handleSubmit = (e) => {
+    //   e.preventDefault();
+
+    
+    //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    //     .then((result) => {
+    //       console.log('Email sent successfully:', result.text);
+    //     }, (error) => {
+    //       console.log('Error sending email:', error.text);
+    //     });
+    // };
+
+
+    
+
+
+
+
+
+
+
+
     gsap.to(".divjudul", {
       x: 120, duration: 1.5, opacity: 1, scrollTrigger: {
         trigger: ".divjudul",
@@ -76,26 +105,7 @@ function poortofolio() {
 
       </div>
 
-      {/* <div style={{ display: 'flex', justifyContent:"space-around",gap:"100px" }}>
-
-        <div className='secondContainer'>
-          <div className='animasi'>
-            <p style={{ marginBottom: "30px" }} className='welcome'>CONTACT</p>
-          </div>
-
-          <div className='animasi'>
-            <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>My Contact</p>
-            <p style={{ color: "white", fontSize: "20px" }}> <li>Email: abhirath1906@gmail.com</li> <br/> <li>Instagram: abhirath1906</li> 
-            <br/> You can contact me if you want to build a web,
-             i can help you to do that.</p>
-          </div>
-        </div>
-
-        <div className='Gambarr' style={{ marginTop: "80px" }}>
-          <img className='Abhi' src={Abhirath} alt="Gambar" />
-        </div>
-
-      </div> 
+     
 
 
 
@@ -156,33 +166,33 @@ function poortofolio() {
             <div style={{ display: "flex", gap: "200px" }}>
               <div>
                 <p style={{ marginBottom: "10px", color: "white" }}>Your Name:</p>
-                <input className='inputtext' type='text' style={{ height: "30px" }} />
+                <input placeholder='Your Name' className='inputtext'  type='text' style={{ height: "30px" }} />
               </div>
 
               <div>
                 <p style={{ marginBottom: "10px", color: "white" }}>Phone Number:</p>
-                <input className='inputtext' type='text' style={{ height: "30px" }} />
+                <input placeholder='Your Phone Number' className='inputtext' type='text' style={{ height: "30px" }} />
               </div>
             </div>
 
 
             <div style={{ marginTop: "60px" }}>
               <p style={{ marginBottom: "10px", color: "white" }}>Email:</p>
-              <input className='inputtext' style={{ width: "530px", height: "30px", }} type='text' />
+              <input id='email' type='email' placeholder="Your email" className='inputtext' style={{ width: "530px", height: "30px", }} />
 
               <div style={{ marginTop: "60px" }}>
                 <p style={{ marginBottom: "10px", color: "white" }}>Subject:</p>
-                <input className='inputtext' style={{ width: "530px", height: "30px" }} type='text' />
+                <input placeholder='Your Subject' className='inputtext' style={{ width: "530px", height: "30px" }} type='text' />
               </div>
 
               <div style={{ marginTop: "60px" }}>
                 <p style={{ marginBottom: "10px", color: "white" }}>Your Message:</p>
-                <input className='inputtext' style={{ width: "530px", height: "100px" }} type='text' />
+                <input  placeholder="Your message" className='inputtext' style={{ width: "530px", height: "100px" }}/>
               </div>
 
 
               <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
-                <button className='Send' type='submit'>SEND MESSAGE</button>
+                <button className='Send' type='submit' >SEND MESSAGE</button>
               </div>
 
             </div>
