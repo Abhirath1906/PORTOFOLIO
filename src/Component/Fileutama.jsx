@@ -10,6 +10,7 @@ import Abhirath from "../assets/Abhirath.jpg"
 import Blacklaptop from "../assets/Blacklaptop.png"
 import Laptopexcel from "../assets/Laptopexcel.jpg"
 import Laptopdesign from "../assets/Laptopdesign.jpg"
+// import App from '../App.jsx'
 
 
 
