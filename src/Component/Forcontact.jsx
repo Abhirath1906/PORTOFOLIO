@@ -117,7 +117,7 @@ function poortofolio() {
 
         <div className='divjudul'>
           <p>CONTACT</p>
-          <p style={{ color: "black" }} >WEB DAVELOPER</p>
+          <p style={{ color: "black" }} >WEB DEVELOPER</p>
         </div>
 
 

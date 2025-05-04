@@ -132,7 +132,7 @@ function poortofolio() {
 
 
           <div style={{ display: "flex", gap: "70px", }}>
-            <a className='animate' href='/home'>Home</a>
+            <a className='animate' href='/home'>home</a>
             <a className='animate' href='/about'>About</a>
             <a className='animate' href='/contact'>Contact</a>
             <a className='animate' href='/skills'>Skills</a>
@@ -157,8 +157,8 @@ function poortofolio() {
           </div>
 
           <div className='animasi' >
-            <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>I Am Web daveloper</p>
-            <p style={{ color: "white", fontSize: "20px" }}>Hi I am a web daveloper with 1 year experience and above,<br /> the things I can do quite well are making animations,then it's<br /> pretty good to be able to use react on the web and many more....</p>
+            <p style={{ color: "white", fontWeight: "bold", fontSize: "40px", marginBottom: "20px" }}>I Am Web developer</p>
+            <p style={{ color: "white", fontSize: "20px" }}>Hi I am a web developer with 1 year experience and above,<br /> the things I can do quite well are making animations,then it's<br /> pretty good to be able to use react on the web and many more....</p>
           </div>
         </div>
 
